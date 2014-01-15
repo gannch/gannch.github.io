@@ -14,13 +14,13 @@ body {
   	top: 30%;
   	left: 50%;
  	margin-top: -100px;
-  	margin-left: -150px;
+  	margin-left: -253px;
 }
 
 	
 .button {
 	position: fixed;
-  	top: 50%;
+  	top: 75%;
   	left: 50%;
  	margin-top: 80px;
   	margin-left: -85px;
@@ -44,6 +44,26 @@ body {
 	border-radius: 3px;
 	font-family: "HelveticaNeue-Light",'Helvetica Neue', Helvetica, sans-serif;
 }
+
+
+.button:active {
+	padding-top: 15px;
+    	margin-bottom: -1px;
+}
+
+
+.button, .button:hover, .button:active {
+	outline: 0 none;
+	text-decoration: none;
+	color: #fff;
+}
+
+
+.button-1 {
+	background-color: #1abc9c;
+	box-shadow: 0px 3px 0px 0px #16a085;
+}
+
 
 
 .button:active {
